@@ -27,26 +27,49 @@
 
         //length
         const animals = ['elephant', 'dog', 'cow', 'goat', 'chimpanzee']
-        console.log(animals . length);
+        console.log(animals.length);
 
-        //
+        //indexof
         const students = ['sakshi', 'mona', 'komii', 'prati', 'nikii']
-        console.log(students [2]);
+        console.log(students[2]);
 
         //shift()
-        const trees = ["stone pine", "spruce", "maple", "oak","palm","cherry"];
+        const trees = ["stone pine", "spruce", "maple", "oak", "palm", "cherry"]
         console.log(trees);
-        trees.shift();
+        trees.shift()
         console.log(trees);
 
         //unshift
-        const subjects = ["CN", "PM", "EP", "AC","PDC"];
+        const subjects = ["CN", "PM", "EP", "AC", "PDC"]
         console.log(subjects);
-        subjects.unshift("DS", "OOP");
+        subjects.unshift("DS", "OOP")
         console.log(subjects);
 
-        //
-        
+        //Splice (insert element)
+        const coursename = ['datastructure', 'web development', 'c langauge', 'python', 'c++', 'cloud']
+        console.log(coursename);
+        coursename.splice(1, 2, 'BHMS', 'MBBS')
+        console.log(coursename);
+
+        // (delete element)
+        const notebookname = ['classmate', 'cosmos', 'sundaram', 'sudarshan']
+        console.log(notebookname);
+        notebookname.splice(0, 1)
+        console.log(notebookname);
+
+        //sort (ascending order)
+        const flowers = ["Rose", "Tulip", "jasmine", "daisy","Lotus","Mogra"]
+        flowers.sort()
+        console.log(flowers);
+
+        //(descending order)
+        const flowers1 = ["Rose", "Tulip", "jasmine", "daisy","Lotus","Mogra"]
+        flowers1.sort().reverse()
+        console.log(flowers1);
+
+
+
+
 
 
 
